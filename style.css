@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    
+}
+.image1{
+     height: 55px;
+     width: 60px; 
+     margin-left: 70px;
+     display: flex;
+     align-items: center;
+}
+
+.image2{
+    height: 22px;
+    /* margin-left: 200px; */
+}
+
+
+.image3{
+    height: 23px;
+    /* margin-left: 200px; */
+}
+
+
+
+.navbar {
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.906);
+    
+    }
+
+.navbar li{
+        display: inline-block;
+        /* margin-bottom: 50px;  */
+        
+    }
+
+.navbar a{
+        color: white;
+        text-decoration: none;         
+    }
+
+
+.navbar a:hover{
+   border: 2px solid white;
+   padding: 3px;
+ }   
+
+.navbar ul{
+
+ display: flex;
+gap:190px;
+justify-content: center;
+padding-left:100px;   
+
+
+
+
+}
+
+.navbar ul :hover{
+  color: blueviolet;
+  transition: 1s ease-in-out  0.2ms;
+
+
+
+}
+
+
+
+/* nav :end */
+
+
+.under-nav{
+    background-color:  rgba(0, 0, 0, 0.906);
+   height: 50px;
+    display: flex;
+    padding-top: 50px;
+}
+
+.under-nav li{
+    color: white;
+    display: inline-block;
+    margin-left: 190px;
+    background-color:  rgba(0, 0, 0, 0.166);
+    
+
+}
+
+
+.under-nav ul{
+   display: flex;
+   
+    align-items: center; 
+    font-weight: 900;
+
+
+}
+
+.button {
+    margin-right: 0px;
+    background-color: red;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right:25px;
+
+    border-radius: 8px;
+    
+}
+
+.under-nav a{
+    color: white;
+    text-decoration: none;
+    background-color:rgba(128, 128, 128, 0.556);
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 19px;
+    border-radius: 9px;
+
+
+}
+
+.under-nav a:hover{
+    color: red;
+    transition: 0.8s ease-in-out ;
+}
+
+
+.buttonn{
+    padding: 10px;
+    border-radius: 13px;
+    background-color: red;
+
+}
+
+
+.under-nav h2{
+    margin-left: 155px;
+}
+
+/* hero sec starts */
+
+
+.hero-section{
+    background-color:   rgba(0, 0, 0, 0.906);;
+    height: 1900px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top:80px ;
+    
+}
+
+
+.food{
+    background-color:black;
+    width: 320px;
+    margin-left: 50px;
+    padding-top: 0px;
+    height: 350px;
+    border-radius: 48px;
+    /* display: inline-block; */
+    border: 1px solid red;
+
+}
+
+.food img{
+margin-left: 50px;
+height:200px;
+margin-top: ;
+}
+
+.food h2,p{
+
+    color: white;
+    margin-left: 80px;
+  
+}
+
+
+/* right sec starts */
+
+.right-sec img,p,h2{
+
+    color: white;
+
+}
